@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrayGPT</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Welcome to PrayGPT</h1>
+    <form id="prayer-form">
+        <label for="affiliation">Religious or spiritual affiliation:</label>
+        <input type="text" id="affiliation" name="affiliation" required>
+        <br>
+        <label for="topic">Prayer topic or focus:</label>
+        <input type="text" id="topic" name="topic" required>
+        <br>
+        <label for="location">Location (optional):</label>
+        <input type="text" id="location" name="location">
+        <br>
+        <label for="additional">Additional details (optional):</label>
+        <input type="text" id="additional" name="additional">
+        <br>
+        <button type="submit">Generate Prayer</button>
+    </form>
+    <div id="prayer-result"></div>
+</body>
+</html>
